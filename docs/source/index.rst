@@ -1,16 +1,25 @@
-###############################
-|Pokengine| jCoad Documentation
-###############################
+Pokengine jCoad Documentation
+================================
+*The Definitive Guide to Pokengine Development*
 
-*The key to Pokéngine development*
+:Documentation Creators:
+    Jext,
+    Zermonious,
+    Fuzzy,
+    Twitch,
+    Kyledove,
+    PixelMister
 
-This site is meant to be the definitive guide to region development on |Pokengine|_. This guide covers everything you need to know about |Pokengine|'s custom programming language, **jCoad**.
+:Version: 2.0
+:Commit Date: March 2025
 
-If there is anything missing from this guide, feel free to open a pull request on this site's `GitHub <https://github.com/jackson-nestelroad/pokengine-jcoad-docs>`_, or message us on our Discord Server (invite link available on `our website <http://pokengine.org>`_).
+This guide covers everything you need to know about coding in `Pokengine <http://pokengine.org>`_, using its custom programming language, **jCoad**.
+
+If there is anything omitted from this guide, open a pull request on this site's `GitHub <https://github.com/jackson-nestelroad/pokengine-jcoad-docs>`_, or message us on our Discord Server.
 
 Tutorial
 ========
-Completely new to jCoad? Never coded in your life? This tutorial is designed to incrementally introduce you to jCoad and to get you started coding as soon as possible.
+Are you new to jCoad and have no prior coding experience? This tutorial is specifically designed to guide you through the fundamentals of jCoad, helping you get started with coding in a clear and structured manner. By following this step-by-step approach, you'll quickly become comfortable with the basics and be on your way to writing code confidently.
 
 Get started by clicking :ref:`here<introduction>`!
 
@@ -46,23 +55,3 @@ Already know the ropes and looking for documentation? Look no further!
     /reference/types
     /reference/pokemon_generation
     /reference/battle_properties
-
-Examples
-========
-Here is a list of large code examples to get you inspired for your own jCoad. Use or adapt these examples as you wish!
-
-**COMING SOON**
-
-.. toctree::
-    :maxdepth: 2
-    :hidden:
-    :caption: Examples
-
-Credits
-=======
-This documentation is created by:
-
-* Jext
-* Zermonious
-* Fuzzy
-* Twitch
