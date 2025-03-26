@@ -9,24 +9,30 @@ If you are unsure how to use these object functions, check out the :ref:`objects
 Any object function ending with :code:`[&triggers]` may have an optional string of game triggers appended to them to execute alongside the function. See :ref:`triggers` for more information.
 
 .. jcoad:function:: xy
-    :suffix: (x,y)
+   :suffix: (x,y)
 
-    Offsets the display position of the object.
+    Offsets the display position of the object, along the X and Y axis.
 
     .. param:: x
         :type: number
 
-        Horizontal offset in pixels.
+        Horizontal offset in pixels. 
+        the addition of +, will indiacte a positive integer, and move the object right.
+        the addition of -, will indicate a negative integer, and move the object left.
 
     .. param:: y
         :type: number
 
         Vertical offset in pixels.
+        the addition of +, will indiacte a positive integer, and move the object right.
+        the addition of -, will indicate a negative integer, and move the object left.
+
 
 .. jcoad:function:: solid
     :suffix: ([type])
 
-    Makes the tile solid. Give a specific direction to customize which edge of the tile is solid.
+    Makes the tile solid. 
+    Give a specific direction to customize which edge of the tile is solid.
 
     .. param:: type
         :type: direction
